@@ -6,7 +6,7 @@
 
 # Git_Pics
 #### 22/04/2022
-This is a basic portfolio Site for Git_Pics Company.
+This is a basic portfolio Site for displaying information about a company.
 #### By 
 Geoffrey Gichaga .G
 
