@@ -11,7 +11,7 @@ html,body{
 
 
 #headertop{
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/back1.jpg');
+    background-image: linear-gradient(to bottom, rgba(27, 76, 116, 0.5), rgba(0, 0, 0, 0.5)), url('images/back1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -20,6 +20,16 @@ html,body{
 
 /* Nav */
 
+/* .navbar
+{
+    position: fixed;
+} */
+
+.brandlogo
+{
+    width: 3%;
+    margin-right: 10px;
+}
 
 .navbar-brand
 {
@@ -50,6 +60,11 @@ html,body{
     color: #21c2e6;
 }
 
+.nav-link:active
+{
+    border-bottom: 2px solid #21c2e6;
+}
+
 /* End of Nav */
 
 
@@ -58,6 +73,7 @@ html,body{
 #slogan{
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
 
 }
 
@@ -65,6 +81,7 @@ html,body{
 {
     color: whitesmoke;
     font-family: 'Nunito', sans-serif;
+    font-size: 25px;
 }
 
 .see-book
@@ -75,6 +92,7 @@ html,body{
     padding:  8px 9px 8px 9px;
     border-radius: 3px;
     margin-left: 7px;
+    text-decoration: none;
 
 }
 
@@ -82,7 +100,8 @@ html,body{
 {
     border: 1px solid #21c2e6;
     background-color: transparent;
-    box-shadow: none;    
+    box-shadow: none;   
+    color: #21c2e6; 
 }
 
 .see-book:focus
@@ -158,77 +177,3 @@ html,body{
 
 
 
-
-
-/* Project section */
-.tm-title{
-    color: #21c2e6;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-
-
-
-
-.members
-{
-    padding: 15px;
-    width: 60%;
-    filter: brightness(40%);
-    
-
-}
-.members:hover
-{
-    filter: brightness(100%);
-    transition: 2s;
-
-
-
-}
-
-.member2
-{
-    width: 45%;
-    filter: brightness(40%);
-
-
-}
-.member2:hover
-{
-    filter: brightness(100%);
-    transition: 2s;
-
-
-}
-
-
-.teamtitles
-{
-    color: #21c2e6;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-.teampositions
-{
-    color: rgb(170, 164, 164);
-    font-family: 'Nunito', sans-serif;
-
-}
-.teamdesc
-{
-    color: rgb(131, 126, 126);
-    font-family: 'Nunito', sans-serif;
-
-}
-
-hr
-{
-    color: #21c2e6;
-}
-.socialicons
-{
-    width: 45%;
-}
