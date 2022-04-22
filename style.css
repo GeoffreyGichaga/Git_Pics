@@ -177,3 +177,274 @@ html,body{
 
 
 
+
+
+/* Project section */
+.tm-title{
+    color: #21c2e6;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+.members
+{
+    padding: 15px;
+    width: 60%;
+    filter: brightness(40%);
+    
+
+}
+.members:hover
+{
+    filter: brightness(100%);
+    transition: 2s;
+
+
+
+}
+
+.member2
+{
+    width: 45%;
+    filter: brightness(40%);
+
+
+}
+.member2:hover
+{
+    filter: brightness(100%);
+    transition: 2s;
+
+
+}
+
+
+.teamtitles
+{
+    color: #21c2e6;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.teampositions
+{
+    color: rgb(170, 164, 164);
+    font-family: 'Nunito', sans-serif;
+
+}
+.teamdesc
+{
+    color: rgb(131, 126, 126);
+    font-family: 'Nunito', sans-serif;
+
+}
+
+hr
+{
+    color: #21c2e6;
+}
+.socialicons
+{
+    width: 45%;
+}
+
+
+
+/* Project Section  */
+
+#searchsection{
+    margin-bottom: 35px;
+
+}
+
+#searchinput
+{
+    padding: 5px 20px 5px 5px ;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #21c2e6;
+    color: whitesmoke;
+    border-radius: 0;
+}
+#searchinput:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+#searchbtn
+{
+    border: 1px solid #21c2e6;
+    border-radius: 2px;
+    padding: 5px 8px 5px 8px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+
+#displayProjects img
+{
+    border-radius: 5px;
+
+}
+
+
+.projectsDisplay img{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+
+/* Booking */
+.booktitle
+{
+    color: rgb(170, 164, 164);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.booktitle2
+{
+    color: rgb(146, 143, 143);
+    font-family: 'Nunito', sans-serif;
+
+
+
+}
+
+.card-header,.card-body,.card-footer
+{
+    background-color: black;
+}
+
+.booklogo
+{
+    width: 5%;
+}
+
+
+
+
+.bookform
+{
+    padding: 5px 5px 5px 5px ;
+    background-color: transparent;
+    color: whitesmoke;
+
+}
+
+
+
+
+.bookform:focus
+{
+    background-color: transparent;
+    color: rgb(218, 218, 218);
+
+}
+
+#message
+{
+    padding: 5px 30px 80px 5px;
+}
+
+
+
+label,#date
+{
+    color: rgb(170, 164, 164);
+    font-family: 'Nunito', sans-serif;
+
+}
+::placeholder{
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    color: rgb(170, 164, 164);
+}
+
+
+
+
+#sendM
+{
+    padding: 5px;
+    background-color: transparent;
+    color: #21c2e6;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid #21c2e6;
+
+}
+
+
+
+
+
+
+
+
+
+
+.card-footer
+{
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+
+
+
+/* End of Booking */
+
+
+
+
+
+/* Footer */
+.footerlogo
+{
+    width: 15%;
+    /* height: 70%; */
+}
+
+.cotext
+{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(170, 164, 164);
+
+
+
+}
+
+#service
+{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(170, 164, 164);
+
+
+}
+#location
+{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(170, 164, 164);
+
+
+
+}
+
+.locationicons
+{
+    width: 8%;
+    height: 60%;
+}
+
+/* End of Footer */
