@@ -20,7 +20,7 @@ Geoffrey Gichaga .G
 + [Authors Info](#authors-Info)
 
 ## Description
-This a school project to demonstrate knowledge on use of API's, it is porfolio site for a media company called Git_Pics ,the purpose of it is to give clients an overview of the company and shocase some of the projects they have worked on and also allow the them to search for different categories of projects where a Pexel API has been used to generate different pictures basing on the query.
+This a school project to demonstrate knowledge on use of API's, it is porfolio site for a media company called Git_Pics ,the purpose of it is to give clients an overview of the company and showcase some of the projects they have worked on and also allow the them to search for different categories of projects where a Pexel API has been used to generate different pictures basing on the query.
 
 
 
