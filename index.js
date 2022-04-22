@@ -57,3 +57,20 @@ async function searchingPhotos(value)
 
   
 }
+
+
+function clearDisplay()
+{
+    displaySection.innerHTML = "";
+
+}
+
+searchButton.addEventListener('click',()=>{
+
+    clearDisplay()
+
+    let inputValue = searchInput.value;
+    searchingPhotos(inputValue)
+
+
+})
